@@ -22,3 +22,27 @@
 
 # Stop container
 `docker Stop <ID>`
+
+# Remove container
+`docker rm <ID>`
+
+# Remove inative containers
+`docker container prune`
+
+# Remove Image
+`docker rmi hello-world`
+
+# Runing detached
+`docker run -d <container>`
+
+# Port
+`docker run -d -P <container>`
+`docker run -d -p 12345:80 <container>`
+`docker port <ID>`
+
+# Environment Variables
+`docker run -d -P -e AUTHOR="Thiago Resende" <container>`
+
+# Stop all
+`docker ps -q`
+`docker stop -t 0 $(docker ps -q)   `
