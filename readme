@@ -1,0 +1,4 @@
+#build
+docker build -t sample/node .
+docker run -p 3000:3000 -d sample/node
+docker exec -it <container id> /bin/bash
