@@ -45,4 +45,9 @@
 
 # Stop all
 `docker ps -q`
-`docker stop -t 0 $(docker ps -q)   `
+`docker stop -t 0 $(docker ps -q)`
+
+# Volumes
+`docker run -it -v "/Users/thiago/Desktop/Study/docker/vol/:/var/www/" ubuntu`
+## Run
+`touch tdfaf.txt`
