@@ -54,3 +54,7 @@
 
 # Ex1
 `docker run -d -p 3000:3000 -v "$(pwd)/vol/:/var/www/" -w "/var/www" node npm start`
+
+# Build Image
+`docker build -t tresende/node .`
+`docker run -d -p 3000:3000 tresende/node`
