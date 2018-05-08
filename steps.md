@@ -58,3 +58,12 @@
 # Build Image
 `docker build -t tresende/node .`
 `docker run -d -p 3000:3000 tresende/node`
+
+# Network
+`docker network ls`
+`docker network create --driver bridge minha-rede`
+
+`apt-get update && apt-get install iputils-ping`
+
+`docker run -it --name meu-container-de-ubuntu --network minha-rede ubuntu`
+`docker run -it --name segundo-ubuntu --network minha-rede ubuntu`
