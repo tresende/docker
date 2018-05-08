@@ -36,19 +36,20 @@
 `docker run -d <container>`
 
 # Port
-`docker run -d -P <container>`
-`docker run -d -p 12345:80 <container>`
+`docker run -d -P <container>` <br />
+`docker run -d -p 12345:80 <container>` <br />
 `docker port <ID>`
 
 # Environment Variables
 `docker run -d -P -e AUTHOR="Thiago Resende" <container>`
 
 # Stop all
-`docker ps -q`
+`docker ps -q` <br />
 `docker stop -t 0 $(docker ps -q)`
 
 # Volumes
 `docker run -it -v "$(pwd)/vol/:/var/www/" ubuntu`
+
 ## Run
 `touch tdfaf.txt`
 
@@ -56,14 +57,14 @@
 `docker run -d -p 3000:3000 -v "$(pwd)/vol/:/var/www/" -w "/var/www" node npm start`
 
 # Build Image
-`docker build -t tresende/node .`
+`docker build -t tresende/node .` <br />
 `docker run -d -p 3000:3000 tresende/node`
 
 # Network
-`docker network ls`
+`docker network ls` <br />
 `docker network create --driver bridge minha-rede`
 
-`apt-get update && apt-get install iputils-ping`
+`apt-get update && apt-get install iputils-ping` <br />
 
-`docker run -it --name meu-container-de-ubuntu --network minha-rede ubuntu`
+`docker run -it --name meu-container-de-ubuntu --network minha-rede ubuntu` <br />
 `docker run -it --name segundo-ubuntu --network minha-rede ubuntu`
