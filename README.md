@@ -1,7 +1,8 @@
 # docker
 Galera! Clona aí pq eu vou mudar esse repo pro private!!!
 
-Problema que vamos resolver :D
+# Problema que vamos resolver :D
+<br />
 <img  width="500"  src="https://image.ibb.co/htMOgJ/funcionamento_aplicacoes.png" />
 <br />
 
