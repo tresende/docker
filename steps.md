@@ -71,6 +71,8 @@
 
 # Docker Compose
 <img  width="500"  src="https://image.ibb.co/htMOgJ/funcionamento_aplicacoes.png" />
+<br />
+
 `docker-compose build` <br />
 `docker-compose up` <br />
 `docker-compose up -d` <br />
