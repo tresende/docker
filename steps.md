@@ -68,3 +68,12 @@
 
 `docker run -it --name meu-container-de-ubuntu --network minha-rede ubuntu` <br />
 `docker run -it --name segundo-ubuntu --network minha-rede ubuntu`
+
+# Docker Compose
+    <img src='https://ibb.co/ki6Zoy'>
+<br />
+`docker-compose build` <br />
+`docker-compose up` <br />
+`docker-compose up -d` <br />
+`docker-compose ps` <br />
+`docker-compose dowb` <br />
