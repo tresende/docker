@@ -70,8 +70,7 @@
 `docker run -it --name segundo-ubuntu --network minha-rede ubuntu`
 
 # Docker Compose
-    <img src='https://ibb.co/ki6Zoy'>
-<br />
+<img  width="500"  src="https://ibb.co/ki6Zoy" />
 `docker-compose build` <br />
 `docker-compose up` <br />
 `docker-compose up -d` <br />
