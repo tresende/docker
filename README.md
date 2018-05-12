@@ -1,6 +1,10 @@
 # docker
 Galera! Clona aí pq eu vou mudar esse repo pro private!!!
 
+Problema que vamos resolver :D
+<img  width="500"  src="https://image.ibb.co/htMOgJ/funcionamento_aplicacoes.png" />
+<br />
+
 # Hello World
 `docker run hello-world` <br />
 `docker run ubuntu echo "Ola Mundo"`
@@ -73,8 +77,6 @@ Galera! Clona aí pq eu vou mudar esse repo pro private!!!
 `docker run -it --name segundo-ubuntu --network minha-rede ubuntu`
 
 # Docker Compose
-<img  width="500"  src="https://image.ibb.co/htMOgJ/funcionamento_aplicacoes.png" />
-<br />
 
 `docker-compose build` <br />
 `docker-compose up` <br />
