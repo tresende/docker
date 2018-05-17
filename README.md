@@ -1,4 +1,4 @@
-# docker
+# Docker
 Galera! Clona aí pq eu vou mudar esse repo pro private!!!
 
 ### Problema que vamos resolver :D
@@ -6,69 +6,69 @@ Galera! Clona aí pq eu vou mudar esse repo pro private!!!
 <img  width="500"  src="https://image.ibb.co/htMOgJ/funcionamento_aplicacoes.png" />
 <br />
 
-# Hello World
+### Hello World
 `docker run hello-world` <br />
 `docker run ubuntu echo "Ola Mundo"`
 
-# List all containers
+### List all containers
 `docker ps -a`
 
-# List all containers
+### List all containers
 `docker ps -a`
 
-# Bash
+### Bash
 `docker run -it ubuntu`
 
-# List active containers
+### List active containers
 `docker ps`
 
-# Start container
+### Start container
 `docker start <ID>`
 
-## Attach container
+#### Attach container
 `docker start -a  -i <ID>`
 
-# Stop container
+### Stop container
 `docker Stop <ID>`
 
-# Remove container
+### Remove container
 `docker rm <ID>`
 
-# Remove inative containers
+### Remove inative containers
 `docker container prune`
 
-# Remove Image
+### Remove Image
 `docker rmi hello-world`
 
-# Runing detached
+### Runing detached
 `docker run -d <container>`
 
-# Port
+### Port
 `docker run -d -P <container>` <br />
 `docker run -d -p 12345:80 <container>` <br />
 `docker port <ID>`
 
-# Environment Variables
+### Environment Variables
 `docker run -d -P -e AUTHOR="Thiago Resende" <container>`
 
-# Stop all
+### Stop all
 `docker ps -q` <br />
 `docker stop -t 0 $(docker ps -q)`
 
-# Volumes
+### Volumes
 `docker run -it -v "$(pwd)/vol/:/var/www/" ubuntu`
 
-## Run
+#### Run
 `touch tdfaf.txt`
 
-# Ex1
+### Ex1
 `docker run -d -p 3000:3000 -v "$(pwd)/vol/:/var/www/" -w "/var/www" node npm start`
 
-# Build Image
+### Build Image
 `docker build -t tresende/node .` <br />
 `docker run -d -p 3000:3000 tresende/node`
 
-# Network
+### Network
 `docker network ls` <br />
 `docker network create --driver bridge minha-rede`
 
@@ -77,7 +77,7 @@ Galera! Clona aí pq eu vou mudar esse repo pro private!!!
 `docker run -it --name meu-container-de-ubuntu --network minha-rede ubuntu` <br />
 `docker run -it --name segundo-ubuntu --network minha-rede ubuntu`
 
-# Docker Compose
+### Docker Compose
 
 `docker-compose build` <br />
 `docker-compose up` <br />
